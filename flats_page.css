@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.flat-page-bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.flat-page {
+    background-color: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 18px;
+}
+
+.flat-page-heading {
+    color: #f19116;
+    font-family: "Breef Serif";
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.flat-page-description {
+    color: #7b8794;
+    font-family: "Breef Serif";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #f19116;
+    font-family: "Breef Serif";
+    font-size: 14px;
+    height: 32px;
+    width: 98px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.flat-page-detailed-view-bg-container {
+    background-color: #222222;
+    padding: 12px;
+}
+
+.flat-page-card {
+    background-color: #ffffff;
+    margin: 12px;
+    height: 40vh;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.flats-list-card-img {
+    height: 40vh;
+    width: 20vh;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.flat-content {
+    padding: 12px;
+    overflow: auto;
+}
+
+.flat-page-card-heading {
+    color: #0f0e46;
+    font-family: "Breef Serif";
+    font-size: 26px;
+    font-weight: 900;
+    padding-top: 12px;
+}
+
+.flat-page-card-description {
+    color: #6c6b70;
+    font-family: "Breef Serif";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-view-container {
+    height: 100%;
+    background-size: cover;
+    background-color: #222222;
+}
+
+.flats-list-img {
+    height: 35vh;
+    width: 100%;
+}
+
+.card-view-content {
+    padding: 32px;
+}
+
+.tariff {
+    color: #f19116;
+    font-family: "Breef Serif";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.flats-list-location-icon-img {
+    width: 30px;
+    height: 30px;
+    padding-left: 12px;
+}
+
+.address {
+    color: #ffffff;
+    font-family: "Breef Serif";
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.card-view-heading {
+    color: #f19116;
+    font-family: "Breef Serif";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card-view-description {
+    color: #ffffff;
+    font-family: "Breef Serif";
+    font-size: 18px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.v-btn {
+    margin: 8px;
+}

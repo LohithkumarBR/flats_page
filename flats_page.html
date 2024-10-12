@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionFlatPage">
+        <div class="flat-page-bg-container d-flex flex-column justify-content-end text-center">
+            <div class="flat-page">
+                <h1 class="flat-page-heading">Sunrise Avenue</h1>
+                <p class="flat-page-description">Move to what moves you.</p>
+                <button class="button" onclick="display('sectionFlatPageDetailedView')">Book Flat</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFlatPageDetailedView">
+        <div class="flat-page-detailed-view-bg-container">
+            <h1 class="flat-page-heading">Sunrise Avenue</h1>
+            <div class="flat-page-card-container">
+                <div class="flat-page-card d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="flats-list-card-img" onclick="display('sectionFlatPageDetailed3BHKView')" />
+                    <div class="flat-content">
+                        <h1 class="flat-page-card-heading">3BHK Flat</h1>
+                        <p class="flat-page-card-description">This is a fully furnished house with handmade
+                            furniture including a luxury en-suite facilities pack.
+                            Its built-up area is about 1600sq.ft.A spacious home for you to live in.
+                            Apartment buildings, characterized by clean, rectangular architecture.
+                            Each building has large windows and spacious balconies, suggesting an open, airy design.
+                            The colors are primarily neutral, with a combination of whites, grays, and some darker accents,
+                            which give the buildings a sleek, contemporary look. The setting appears to be in an urban or suburban area,
+                            with greenery and trees adding a refreshing touch. The overall atmosphere is calm, evoking a sense of well-designed,
+                            comfortable living spaces.</p>
+                    </div>
+                </div>
+                <div class="flat-page-card d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="flats-list-card-img" onclick="display('sectionFlatPageDetailed2BHKView')" />
+                    <div class="flat-content">
+                        <h1 class="flat-page-card-heading">2BHK Flat</h1>
+                        <p class="flat-page-card-description">A minimalist house made for modern-day
+                            families.It is fully furnished with trending furnitures Its built-up arae is
+                            about 1200sq.ft. showcases a row of multi-story residential buildings with a classic,
+                            elegant architectural style. The buildings have a mix of beige and light brown tones,
+                            giving them a warm and inviting appearance. Each unit features large windows and decorative
+                            balconies with intricate railing designs. The street in front is lined with trees,
+                            adding a pleasant touch of greenery to the urban setting. The overall ambiance is sophisticated,
+                            suggesting a peaceful and upscale residential neighborhood.</p>
+                    </div>
+                </div>
+                <div class="flat-page-card d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="flats-list-card-img" onclick="display('sectionFlatPageDetailed4BHKView')" />
+                    <div class="flat-content">
+                        <h1 class="flat-page-card-heading">4BHK Flat</h1>
+                        <p class="flat-page-card-description">A contemporary
+                            home with more color and vibrancy.It is fully furnished
+                            with elegant furniture.Its built-up area is about 3600sq.fthigh-rise apartment buildings with a sleek, minimalist design.
+                            The structures have a predominantly white facade with glass windows that stretch across each floor, giving them a futuristic and polished appearance.
+                            Balconies jut out from the buildings, providing outdoor spaces for residents. The area around the buildings is landscaped with a combination of trees and grass,
+                            creating a clean and organized environment. The overall impression is of a contemporary, urban living space with an emphasis on luxury and modern aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="button" onclick="display('sectionFlatPage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionFlatPageDetailed3BHKView">
+        <div class="card-view-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="flats-list-img" />
+            <div class="card-view-content">
+                <h1 class="tariff">Rs 3000/-</h1>
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="flats-list-location-icon-img" />
+                <span class="address">D/N 5-2,Food Street,Indore</span>
+                <h1 class="card-view-heading">Description</h1>
+                <p class="card-view-description">This is a fully furnished house with handmade furniture
+                    including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft
+                    A spacious home for you to live in.This is a apartment buildings, characterized by clean, rectangular architecture.
+                    Each building has large windows and spacious balconies, suggesting an open, airy design.
+                    The colors are primarily neutral, with a combination of whites, grays, and some darker accents,
+                    which give the buildings a sleek, contemporary look. The setting appears to be in an urban or suburban area,
+                    with greenery and trees adding a refreshing touch. The overall atmosphere is calm, evoking a sense of well-designed, comfortable living spaces.</p>
+                <div class="button-container d-flex flex-row">
+                    <button class="button v-btn">Confirm</button>
+                    <button class="button v-btn" onclick="display('sectionFlatPageDetailedView')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFlatPageDetailed2BHKView">
+        <div class="card-view-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="flats-list-img" />
+            <div class="card-view-content">
+                <h1 class="tariff">Rs 2000/-</h1>
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="flats-list-location-icon-img" />
+                <span class="address">D/N 6-2,Food Street,Indore</span>
+                <h1 class="card-view-heading">Description</h1>
+                <p class="card-view-description">
+                    A minimalist house made for modern-day families.
+                    It is fully furnished with trending furniture.
+                    Its bbuilt-up area is about 12004.ft.showcases a row of multi-story residential buildings with a classic,
+                    elegant architectural style. The buildings have a mix of beige and light brown tones,
+                    giving them a warm and inviting appearance. Each unit features large windows and decorative balconies
+                    with intricate railing designs. The street in front is lined with trees, adding a pleasant touch of greenery to the urban setting. The overall ambiance is sophisticated, suggesting a peaceful and upscale residential neighborhood.
+                </p>
+                <div class="button-container d-flex flex-row">
+                    <button class="button v-btn">Confirm</button>
+                    <button class="button v-btn" onclick="display('sectionFlatPageDetailedView')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFlatPageDetailed4BHKView">
+        <div class="card-view-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="flats-list-img" />
+            <div class="card-view-content">
+                <h1 class="tariff">Rs 4000/-</h1>
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="flats-list-location-icon-img" />
+                <span class="address">D/N 5-2,Food Street,Indore</span>
+                <h1 class="card-view-heading">Description</h1>
+                <p class="card-view-description">
+                    A contemporary home with more color and vibrancy.
+                    It is fully furnished with elegant furniture.
+                    Its built-uparea is about 3600sq.ft. high-rise apartment buildings with a sleek, minimalist design.
+                    The structures have a predominantly white facade with glass windows that stretch across each floor,
+                    giving them a futuristic and polished appearance. Balconies jut out from the buildings,
+                    providing outdoor spaces for residents. The area around the buildings is landscaped with a combination of trees and grass,
+                    creating a clean and organized environment. The overall impression is of a contemporary, urban living space with an emphasis on luxury and modern aesthetics.
+                </p>
+                <div class="button-container d-flex flex-row">
+                    <button class="button v-btn">Confirm</button>
+                    <button class="button v-btn" onclick="display('sectionFlatPageDetailedView')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
