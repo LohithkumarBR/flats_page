@@ -4,8 +4,8 @@ Interactive webpage layout for a real estate listing of modern flats. The layout
 ![flats-output-1](https://github.com/user-attachments/assets/a64969be-cb05-4de5-9360-45454d770905)
 # future enhancement
 Future enhancements:
-Adding interactive 3D tours of the apartments for a more immersive experience.
-Implementing a search filter for users to refine listings based on location, price, and features.
-Integrating user reviews and ratings for each apartment.
-Including a live chat feature for real-time assistance.
-Optimizing the site for mobile devices with a responsive design and faster load times
+*Adding interactive 3D tours of the apartments for a more immersive experience.
+*Implementing a search filter for users to refine listings based on location, price, and features.
+*Integrating user reviews and ratings for each apartment.
+*Including a live chat feature for real-time assistance.
+*Optimizing the site for mobile devices with a responsive design and faster load times
